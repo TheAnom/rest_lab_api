@@ -2,6 +2,12 @@
 
 Proyecto Jeferson, ruby.
 
+### Evidencia 1
+![Imagen](./01_evidencia.png)
+
+### Evidencia 2
+![Imagen](./02_evidencia.png)
+
 ## Instalación y Configuración
 
 1. Clonar el repositorio:
