@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Prueba AJAX con fetch</title>
+</head>
+<body>
+<h1>Listado de Articles (AJAX)</h1>
+<ul id="list"></ul>
+<script>
+fetch('/api/v1/articles')
+  .then(r => r.json())
+  .then(items => {
+    const ul = document.getElementById('list');
+    items.forEach(a => {
+      const li = document.createElement('li');
+      li.textContent = `${a.id}: ${a.title}`;
+      ul.appendChild(li);
+    });
+  })
+  .catch(err => console.error('Error fetch:', err));
+</script>
+</body>
+</html>
