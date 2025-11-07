@@ -1,12 +1,6 @@
 # REST Lab API
 
-API REST básica desarrollada con Ruby on Rails 8.1.1 que expone el recurso `Article` con operaciones CRUD completas y respuestas JSON.
-
-## Requisitos
-
-- Ruby 3.2.3+
-- Rails 8.1.1+
-- SQLite3 (incluido por defecto)
+Proyecto Jeferson, ruby.
 
 ## Instalación y Configuración
 
@@ -191,13 +185,3 @@ public/
 └── test.html                           # Página de prueba AJAX
 ```
 
-## Tecnologías utilizadas
-
-- Ruby 3.2.3
-- Rails 8.1.1 (modo API)
-- SQLite3
-- Puma (servidor web)
-
-## Autor
-
-Desarrollado como parte del proyecto REST Lab API.
